@@ -12,7 +12,7 @@ unset XDG_RUNTIME_DIR
 thishost=localhost
 jupyter-lab --no-browser --ip=$thishost --notebook-dir=$PWD >& jupyter_logbook.txt &
 
-sleep 5
+sleep 15
 echo ""
 echo ""
 
